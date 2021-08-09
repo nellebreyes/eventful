@@ -42,28 +42,77 @@
             <ul class="navigation-menu">
                 <li><a class="navigation-link" href="#">About</a></li>
                 <li><a class="navigation-link" href="#">Gallery</a></li>
-                <li><a class="navigation-link" href="#">Blog</a></li>
+                <li><a class="navigation-link" href="#">Reviews</a></li>
                 <li><a class="navigation-link" href="#">Contact</a></li>
             </ul>
             <h3 class="navigation-statement">Every wedding deserves <br>an <span>Eventful</span> celebration</h3>
         </nav>
-        <div class="banner">
-            <div class="banner-header">
-                <div class="logo"><img src="./images/wedding_rings.png"/></div>
-                <div class="logo-name"><h1>Eventful</h1></div>
+        <div class="main">
+            <div class="banner">
+                <div class="banner-header">
+                    <div class="logo"><img src="./images/wedding_rings.png"/></div>
+                    <div class="logo-name"><h1>Eventful</h1></div>
+                </div>
+                <div class="banner-body">
+                    <h2 class="banner-welcome">Welcome to Eventful</h2>
+                    <p class="banner-statement">Where dream weddings come to life</p>
+                    <button class="banner-btn">Gallery</button>
+                </div>
             </div>
-            <div class="banner-body">
-                <h2 class="banner-welcome">Welcome to Eventful Weddings</h2>
-                <p class="banner-statement">We make dream weddings come true</p>
-                <button class="banner-btn">Gallery</button>
-            </div>
+            <section class="about narrow mt-5">
+                <div class="about-story">
+                    <div class="about-title section-title pb-3">About Us</div>
+                    <div class="about-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, quidem aliquam illo debitis distinctio in natus et excepturi saepe voluptate id sit quibusdam beatae quos? Possimus voluptates tempore molestiae! Eos ut quod alias eveniet debitis exercitationem reprehenderit eaque maiores.</div>
+                    <div class="about-content mt-2">Quis, sapiente reiciendis quam praesentium tempora perferendis tempore ab magni eligendi.</div>
+                    <div class="video-container">
+                        <video src="https://pixabay.com/videos/download/video-13245_medium.mp4?attachment" class="video" playsinline></video>
+                        <div class="show-controls">
+                            <div class="controls-container">
+                                <!-- Progress Bar -->
+                                <div class="progress-range" title="Seek">
+                                    <div class="progress-bar"></div>
+                                </div>
+                                <!-- Controls -->
+                                <div class="controls-group">
+                                    <!-- Left -->
+                                    <div class="controls-left">
+                                        <!-- Play/Pause -->
+                                       <i class="fas fa-play" title="Play" id='play-btn'></i>
+                                       <!-- Volume -->
+                                       <i class="fas fa-volume-up" title="Mute" id="volume-icon"></i>
+                                    </div>
+                                    <!-- Right -->
+                                    <div class="controls-right">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-images">
+                    <div class="logo"><img src="./images/gown.jpg"/></div>
+                </div>
+            </section>
+
+            
+
+            <section class="review narrow mt-5">
+                <div class="review-quote-container mt-2">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <span></span><br>
+                        - <span class="reviewAuthor"></span>
+                    </div>
+                    <button class="reviewBtn">Next quote</button>                    
+                </div>
+                <div class="review-image">
+                    <img>
+                </div>
+            </section>
         </div>
-        <section class="About narrow">
-            <div class="About-story">
-                <div class="About-title">About Us</div>
-                <div class="About-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, quidem aliquam illo debitis distinctio in natus et excepturi saepe voluptate id sit quibusdam beatae quos? Possimus voluptates tempore molestiae! Eos ut quod alias eveniet debitis exercitationem reprehenderit eaque maiores. Quis, sapiente reiciendis quam praesentium tempora perferendis tempore ab magni eligendi.</div>
-            </div>
-        </section>
     </div>
+    <script src="js/quotes.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
